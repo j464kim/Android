@@ -11,8 +11,15 @@
 	    android:paddingLeft="@dimen/activity_horizontal_margin"
 	    android:paddingRight="@dimen/activity_horizontal_margin"
 	    android:paddingTop="@dimen/activity_vertical_margin"
-	    tools:context="ca.uwaterloo.lab1_201_11.MainActivity$PlaceholderFragment" >
-	
+	    tools:context="ca.uwaterloo.lab2_201_11.MainActivity$PlaceholderFragment" >
+		
+	    <Button
+	        android:id="@+id/save"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:text="save data"
+	        />
+	    
 	    <TextView
 	        android:id="@+id/label1"
 	        android:layout_width="wrap_content"
